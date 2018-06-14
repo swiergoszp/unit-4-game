@@ -1,0 +1,78 @@
+body {
+    background-image: url("../images/6UGrLn.png");
+    background-size: cover;
+}
+
+/* header div, holds .title */
+header {
+    text-align: center;
+}
+
+/* h1 element for title */
+.title {
+    display: inline-block;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 200%;
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+}
+
+.column {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* holds the directions and narative in p element */
+.directions {
+    color: white;
+    margin: 5px 10px 5px 10px;
+}
+
+/* p element for directions, held in .directions */
+.strange {
+    line-height: 200%;
+    margin: 0 0 20px 10px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/* div for the number user is trying to guess */
+.guessNumber {
+    background-color: blueviolet;
+    color: white;
+    padding: 50px;
+    margin: 5px 5px 5px 10px;
+}
+
+/* holds the win loss count */
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+    margin: 5px 10px 5px 5px;
+}
+
+/* div that holds infinity stone images */
+.stones {
+    margin: 5px 10px 5px 10px;
+}
+
+.scoreBanner {
+    color: white;
+    padding: 10px;
+    margin: 5px 10px 5px 10px;
+}
+
+.userGuess {
+    color: white;
+    background-color: burlywood;
+    padding: 20px;
+    margin: 5px 10px 5px 10px;
+}

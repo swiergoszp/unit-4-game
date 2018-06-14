@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Infinity Puzzle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+
+    <header>
+        <!-- title at top o page -->
+        <h1 class="title">A "Strange" Encounter</h1>
+    </header>
+
+    <!-- holds content and organizes into column -->
+    <main class="column">
+
+        <!-- holds the game narative and instructions -->
+        <div class="directions">
+            <p class="strange">The strength of the Infinity Stones are unrivaled. Things of legend, 
+                they are said to be the remnants of forces that existed even before 
+                the creation of our universe.</p>
+
+            <p class="strange">Dr. Strange, the Sorcerer Supreme, has managed to locate all six of them.
+                However in order to contain them and keep them hidden, their power must
+                be nullified. Luckily, Strange has devised a strategy to use the stones
+                against one another to supress their strength.</p>
+
+            <p class="strange">Each stone vibrates at a different frequency from the others. Using these
+                different vibrational patterns, Strange believes he can create layers of
+                magic barriers to do the trick. This is where you come in...</p>
+
+            <p class="strange">In order to discover the frequency and how much energy it contains, 
+                you mush interact with stones. Dr. Strange had provided you with a magical
+                set of blacksmith tong he calls the "Pincers of Rathalos". Using this 
+                artifact allows Strange the time he needs to add the stones power to
+                his spell.</p>
+        </div>
+
+        <!-- creates a row for the number being guessed and scoreboard -->
+        <div class="row">
+            
+            <!-- number being guessed -->
+            <div class="guessNumber"></div>
+
+            <!-- tracks wins and losses -->
+            <div class="scoreboard">
+                <div>
+                    <p id="alert"></p>
+                </div>
+                <div>
+                    <p id="win">Success: 0</p>
+                </div>
+                <div>
+                    <p id="loss">Failure: 0</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- container for all clickable items for game -->
+        <div class="stones row">
+            <img id="space" class="stoneClick" value: "2" src="assets/images/space.png">
+            <img id="mind" class="stoneClick" value: "-5" src="assets/images/mind.png">
+            <img id="soul" class="stoneClick" value: "4" src="assets/images/soul.png">
+            <img id="reality" class="stoneClick" value: "-2" src="assets/images/reality.png">
+            <img id="time" class="stoneClick" value: "5" src="assets/images/time.png">
+            <img id="power" class="stoneClick" value: "6" src="assets/images/power.png">
+        </div>
+
+        <!-- static banner -->
+        <div class="scoreBanner">
+            <p>Your barrier strength is:</p>
+        </div>
+
+        <!-- container holding total of user guesses -->
+        <div class="userGuess"></div>
+
+    </main>
+    
+</body>
+</html>
