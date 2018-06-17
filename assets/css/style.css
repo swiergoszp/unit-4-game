@@ -1,21 +1,23 @@
 body {
-    background-image: url("../images/6UGrLn.png");
+    background-image: url("../images/92348138-cartoon-seamless-pattern-texture-old-crack-brick-wall-vector-background.jpg");
     background-size: cover;
 }
 
 /* header div, holds .title */
 header {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
 /* h1 element for title */
 .title {
     display: inline-block;
-    color: white;
-    font-style: italic;
+    color: gold;
+    background-color: seagreen;
+    font-size: 150%;
     font-weight: bold;
-    font-size: 200%;
-    margin: 5px 10px 5px 10px;
+    margin: 10px 10px 5px 10px;
     padding: 10px;
 }
 
@@ -30,23 +32,47 @@ header {
     margin: 5px 10px 5px 10px;
 }
 
+.link {
+    width: 225px;
+    height: 150px;
+    float: left;
+    margin-right: 5px;
+}
+
 /* p element for directions, held in .directions */
-.strange {
-    line-height: 200%;
-    margin: 0 0 20px 10px;
+.story {
+    line-height: 150%;
+    color: gold;
+    background-color: seagreen;
+    padding: 5px;
 }
 
 .row {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#win {
+    margin-right: 10px;
 }
 
 /* div for the number user is trying to guess */
-.guessNumber {
-    background-color: blueviolet;
-    color: white;
-    padding: 50px;
+.guessBox {
+    background-color: seagreen;
+    color: gold;
+    padding: 20px;
     margin: 5px 5px 5px 10px;
+    text-align: center;
+}
+
+.userGuess {
+    font-size: 300%;
+}
+
+.guessNumber {
+    text-align: center;
+    font-size: 300%;
 }
 
 /* holds the win loss count */
@@ -54,25 +80,24 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    color: white;
+    color: gold;
+    background-color: seagreen;
     padding: 20px;
     margin: 5px 10px 5px 5px;
 }
 
-/* div that holds infinity stone images */
-.stones {
-    margin: 5px 10px 5px 10px;
+/* div that holds crystal images */
+.crystals {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 10px;
 }
 
 .scoreBanner {
-    color: white;
+    color: gold;
+    background-color: seagreen;
+    width: 25%;
     padding: 10px;
-    margin: 5px 10px 5px 10px;
-}
-
-.userGuess {
-    color: white;
-    background-color: burlywood;
-    padding: 20px;
     margin: 5px 10px 5px 10px;
 }
