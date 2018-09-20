@@ -1,6 +1,8 @@
 # unit-4-game
 jquery homework
 
+https://swiergoszp.github.io/unit-4-game/
+
 A Legend of Zelda themed click-game.
 
 The games premise is simple, use the 4 gems of differing values to eventually make a number that equals the one given at the start of each round. 
